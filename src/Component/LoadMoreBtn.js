@@ -36,7 +36,7 @@ export const LoadMoreBtn = (root) => {
     btn?.remove()
   }
 
-  const component = `<button type="button" class="btn btn-primary add-card">Learn More</button>`
+  const component = `<button type="button" class="btn btn-primary add-card">Load More</button>`
   root.insertAdjacentHTML('afterend',component)
   ScrollUp(root)
   document.querySelector('.add-card').addEventListener('click', onAddCard)
